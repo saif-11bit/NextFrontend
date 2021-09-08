@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -6,6 +6,34 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+} */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 20vh;
+  background-color: #2f2f30;
+  color: white;
+}
+
+.navLogo{
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 20px;
+}
+
+/* .main{
+  background-color: #424242;
+  height: 80vh;
+} */
+
+
+.navLinks a{
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 .main {
@@ -15,6 +43,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 3rem;
 }
 
 .footer {
